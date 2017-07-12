@@ -1,0 +1,13 @@
+{
+  "name": "node-docker-calculator",
+  "version": "1.0.0",
+  "description": "Node.js calculator micro-service on Docker",
+  "author": "Eric Freeman <clownhunter@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
