@@ -1,12 +1,15 @@
 'use strict';
 
 const express = require('express');
+const cors = require('cors');
 
 // Constants
 const PORT = process.env.PORT || 8080;
 
 // App
 const app = express();
+app.use(cors());
+
 app.get('/', (req, res) => {
   res.send('Hello world\n');
 });
